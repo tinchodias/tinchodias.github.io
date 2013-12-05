@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Idea | Super Blog]]></title>
+  <link href="http://tinchodias.github.io/blog/categories/idea/atom.xml" rel="self"/>
+  <link href="http://tinchodias.github.io/"/>
+  <updated>2013-12-05T00:35:50-03:00</updated>
+  <id>http://tinchodias.github.io/</id>
+  <author>
+    <name><![CDATA[Martin Dias]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Second Idea]]></title>
+    <link href="http://tinchodias.github.io/blog/2013/12/04/second-idea/"/>
+    <updated>2013-12-04T18:46:54-03:00</updated>
+    <id>http://tinchodias.github.io/blog/2013/12/04/second-idea</id>
+    <content type="html"><![CDATA[<p>This is not a very interesting idea.</p>
+]]></content>
+  </entry>
+  
+</feed>
