@@ -1,3 +1,4 @@
+{ "title" : "Martin's Publications" }
 !Publications
 
 ${etPublications:author=n Dias|bibFile=rmod.bib}$
