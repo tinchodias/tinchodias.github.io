@@ -1,14 +1,19 @@
 ! Projects
 
-I'm involved in several open source software projects.
+I participate in several open source software projects.
+
+
+!! Pharo
+
+I'm involved in the Pharo open-source community. *Pharo>http://pharo.org/* is a pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback.
+Pharo is a Smalltalk-inspired language that offers strong live programming features such as immediate object manipulation, live update, hot recompilation. Live programming environment is in the heart of the system.
 
 
 !! Fuel
 
-*Fuel>http://rmod.inria.fr/web/software/Fuel/* is a general-purpose object serialization framework developed in *Pharo>http://pharo.org/*.
+I've worked in the development, and currently in maintenance tasks, of Fuel. *Fuel>http://rmod.inria.fr/web/software/Fuel/* is a general-purpose object serialization framework developed in *Pharo>http://pharo.org/*.
 
 
 !! Epicea
 
-*Epicea>http://smalltalkhub.com/#!/~MartinDias/Epicea* is a tool for *Pharo>http://pharo.org/* that records code changes enriched with IDE events. Epicea extends and could replace the traditional .changes logging mechanism, where the recorded code changes are incomplete and are not properly reified and thus it can be difficult to recover lost code after an image crash.
-
+I'm working in Epicea. *Epicea>http://smalltalkhub.com/#!/~MartinDias/Epicea* is a tool for *Pharo>http://pharo.org/* that records code changes enriched with IDE events. Epicea extends and could replace the traditional .changes logging mechanism, where the recorded code changes are incomplete and are not properly reified and thus it can be difficult to recover lost code after an image crash.
