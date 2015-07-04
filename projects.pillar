@@ -1,0 +1,14 @@
+! Projects
+
+I'm involved in several open source software projects.
+
+
+!! Fuel
+
+*Fuel>http://rmod.inria.fr/web/software/Fuel/* is a general-purpose object serialization framework developed in *Pharo>http://pharo.org/*.
+
+
+!! Epicea
+
+*Epicea>http://smalltalkhub.com/#!/~MartinDias/Epicea* is a tool for *Pharo>http://pharo.org/* that records code changes enriched with IDE events. Epicea extends and could replace the traditional .changes logging mechanism, where the recorded code changes are incomplete and are not properly reified and thus it can be difficult to recover lost code after an image crash.
+
