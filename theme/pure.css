@@ -1,3 +1,17 @@
+/* Martin's customizations */
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+/* ---- */
+
+
+
+
 /* magritte */
 th { background: none }
 td.required:after { color: #8a1f11; margin-left: 0.5em; font-weight: bold; content: "*"; }
@@ -46,6 +60,12 @@ ul, p{
     list-style-type: square;
     margin-bottom: 0.3em;
 }
+
+ol li {
+    list-style-type: square;
+    margin-bottom: 0.75em;
+}
+
 
 a{
        color: #002299; //#003366;
@@ -153,9 +173,9 @@ figure{
 	position: relative;
 	padding-top: 70px;
 	font-family: helvetica neue, helvetica;
-        font-size: smaller;
+    font-size: smaller;
 	width: auto;
-        margin: auto;
+    margin: auto;
 }
 .children ul{
         margin: auto;
@@ -166,7 +186,7 @@ figure{
 	list-style-type: none;
 	height: 40px;
 	display: inline;  
-        margin: 15px;       
+    margin: 15px;       
 }
 
 /* submenue */
