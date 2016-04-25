@@ -13,12 +13,8 @@
 
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" />
 
-		<link rel="stylesheet" type="text/css" media="screen, projection" href="{{baseurl}}theme/screen.css" />
-		<link rel="stylesheet" type="text/css" media="print" href="{{baseurl}}theme/print.css" />
-		<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="/wiki/files/PRBlueprintLibrary/ie.css"/><![endif]-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="{{baseurl}}theme/pure.css" />
-		<!--link rel="canonical" href="http://esug.org/wiki/pier/About/membership" /-->
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

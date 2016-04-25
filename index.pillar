@@ -2,21 +2,28 @@
 
 This site is about me as a programmer and a researcher.
 
-In 2015, I've got a Ph.D. at University of Lille (France) under the supervision of *Stéphane Ducasse>http://stephane.ducasse.free.fr/* and *Damien Cassou>http://damiencassou.seasidehosting.st/*. I was part of *RMoD research group>http://rmod.lille.inria.fr/* at *Inria>http://www.inria.fr/*.
+In 2015, I've got a Ph.D. at University of Lille (France) under the supervision of *Stéphane Ducasse>http://stephane.ducasse.free.fr/* and *Damien Cassou>http://damiencassou.seasidehosting.st/*. 
+I was part of *RMoD research group>http://rmod.lille.inria.fr/* at *Inria>http://www.inria.fr/*.
+In my *thesis>http://rmod.inria.fr/archives/phd/PhD-2015-Dias.pdf* I've worked in software evolution, first-class code changes, code integration activities, and untangling code changes.
 
-Previously, I've studied at the *Departamento de Computación>http://www.dc.uba.ar/*, *Universidad de Buenos Aires>http://dc.uba.ar/*, where I received my degree in Computer Sciences. During my studies, I've worked several years at *Hexacta>http://www.hexacta.com/*, a consulting and software development company at Buenos Aires, Argentina.
+Previously, I've studied at the *Departamento de Computación>http://www.dc.uba.ar/*, *Universidad de Buenos Aires>http://dc.uba.ar/*, where I received my degree in Computer Sciences. 
+In my *master thesis>http://www.dc.uba.ar/inv/tesis/licenciatura/2012/dias.pdf*, I worked in *Fuel>http://rmod.inria.fr/web/software/Fuel/*, an object serialization framework for *Pharo>http://pharo.org/*, which has been adopted by the community.
+My supervisors were *Hernán Wilkinson>https://www.dc.uba.ar/rrhh/profesores/wilkinson*, *Carlos E. Ferro>https://plus.google.com/106742013239110676404*, and *Stéphane Ducasse>http://stephane.ducasse.free.fr/*.
+
+During my master I've programmed many years for consulting and software development companies such as *Hexacta>http://www.hexacta.com/*.
 
 ! Research interests
 
+- Programming languages
+- Reflective Systems
 - Software comprehension, maintenance and evolution
 - Source code analysis and manipulation
 - Mining software repositories
-
-%I propose solutions to support program comprehension and software evolution. 
+- Others
 
 ! Contact
 
-- *email>tinchodias@gmail.com*
+- *e-mail>tinchodias@gmail.com*
 - *twitter>http://twitter.com/tinchodias*
 - *smalltalkhub>http://smalltalkhub.com/#!/~MartinDias/*
 - *github>http://github.com/tinchodias/*

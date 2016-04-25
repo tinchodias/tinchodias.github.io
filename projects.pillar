@@ -11,9 +11,13 @@ Pharo is a Smalltalk-inspired language that offers strong live programming featu
 
 !! Fuel
 
-I've worked in the development, and currently in maintenance tasks, of Fuel. *Fuel>http://rmod.inria.fr/web/software/Fuel/* is a general-purpose object serialization framework developed in *Pharo>http://pharo.org/*.
+I'm on the development and maintenance of Fuel. *Fuel>http://rmod.inria.fr/web/software/Fuel/* is a general-purpose object serialization framework developed in *Pharo>http://pharo.org/*, adopted by the community.
 
 
 !! Epicea
 
 I'm working in Epicea. *Epicea>http://smalltalkhub.com/#!/~MartinDias/Epicea* is a tool for *Pharo>http://pharo.org/* that records code changes enriched with IDE events. Epicea extends and could replace the traditional .changes logging mechanism, where the recorded code changes are incomplete and are not properly reified and thus it can be difficult to recover lost code after an image crash.
+
+!! Voyage
+
+I contribute to *Voyage>https://github.com/estebanlm/voyage*. Voyage is a small persistence framework developed by Esteban Lorenzano, constructed as a small layer between the objects and a persistency mechanism. It is purely object-oriented and has as a goal to present a minimal API to most common development usages. Voyage's main backend is the *MongoDB database>http://mongodb.org*, but it is designed as a common layer that different backends can implement.
