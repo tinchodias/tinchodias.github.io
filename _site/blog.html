@@ -1,16 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<title>
-			Martin Dias
+		Martin Dias
 		</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
 		<meta name="generator" content="Pharo - Pillar - Ecstatic" />
 		<meta name="robots" content="index,follow" />
-		<meta name="keywords" content="changes, impact" />
-		
+		<meta name="keywords" content="Martin Dias, tinchodias, changes, impact" />
+
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="/theme/screen.css" />
 		<link rel="stylesheet" type="text/css" media="print" href="/theme/print.css" />
 		<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="/wiki/files/PRBlueprintLibrary/ie.css"/><![endif]-->
@@ -19,24 +21,24 @@
 		<!--link rel="canonical" href="http://esug.org/wiki/pier/About/membership" /-->
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	</head>
 	<body class="page viewcommand defaultview">
 		<div class="container">
 			<div class="header">
-				<div class="title">	
+				<div class="title">
 					<div style="float:left; margin-right:15px">
 						<a href="/index.html">
-							 <img alt="Martin Dias" src="http://www.gravatar.com/avatar/cdeb4819a8b61aa0164507c81c885d64?s=400">
+							<img alt="Martin Dias" src="http://www.gravatar.com/avatar/cdeb4819a8b61aa0164507c81c885d64?s=400">
 						</a>
 					</div>
 					<div style="margin:15px">
 						<h1>Martin Dias</h1>
-					  	<h2>Personal site</h2>
+						<h2>research | programming</h2>
 					</div>
 				</div>
-				<div class="children">					
+				<div class="children">
 					<ul>
 						
 						<li>
@@ -91,45 +93,40 @@
 </p></section>
 				</div>
 			</div>
-		</div>
 		<div class="footer container-fluid">
 			<div class="madeby">
-				Pure theme powered by <a class="external" href="http://www.pharo.org">pharo</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~Pier/Pillar">pillar</a> | <a class="external" href="http://guillep.github.io/ecstatic/">Ecstatic</a>
+				Powered by <a class="external" href="http://www.pharo.org">pharo</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~Pier/Pillar">pillar</a> | <a class="external" href="http://guillep.github.io/ecstatic/">Ecstatic</a>
 			</div>
-
-		<script>
-		$(document).ready(function() {
-		    $('dt').each(function() {
-		        var $dt = $(this),
-		        $selection = $dt.next('dd').andSelf();
-		        $selection.wrapAll('<div class="col-md-4">');
-		    });
-			$('dd').find('br').remove();
-			$('dt').contents().unwrap().wrap("<h3/>");
-			$('dd').contents().unwrap().wrap("<p/>");
-			$('dl').wrap("<div class='row multi-columns-row'/>");
-			$('dl').contents().unwrap();
-		});
-		function transformAnnotatedParagraphs(pClass) {
-		    $("p." + pClass).wrap("<div class='alert alert-" + pClass + "' role='alert'/>" );
-		};
-		transformAnnotatedParagraphs('success');
-		transformAnnotatedParagraphs('info');
-		transformAnnotatedParagraphs('warning');
-		transformAnnotatedParagraphs('danger');
-		</script>
-		<script type="text/javascript">
-				/* analytics */
-				/*<![CDATA[*/
-					var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-					document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-				/*]]>*/
-			</script>
-			<script type="text/javascript">
-/*<![CDATA[*/var pageTracker = _gat._getTracker('UA-2892391-1');
-			pageTracker._initData();
-			pageTracker._trackPageview();/*]]>*/
-			</script>
+		</div>
 		</div>
 	</body>
-</html>
+	<script>
+	$(document).ready(function() {
+	$('dt').each(function() {
+	var $dt = $(this),
+	$selection = $dt.next('dd').andSelf();
+	$selection.wrapAll('<div class="col-md-4">');
+			});
+				$('dd').find('br').remove();
+				$('dt').contents().unwrap().wrap("<h3/>");
+				$('dd').contents().unwrap().wrap("<p/>");
+						$('dl').wrap("<div class='row multi-columns-row'/>");
+								$('dl').contents().unwrap();
+							});
+							function transformAnnotatedParagraphs(pClass) {
+							$("p." + pClass).wrap("<div class='alert alert-" + pClass + "' role='alert'/>" );
+									};
+									transformAnnotatedParagraphs('success');
+									transformAnnotatedParagraphs('info');
+									transformAnnotatedParagraphs('warning');
+									transformAnnotatedParagraphs('danger');
+					</script>
+					<script>
+					(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+					})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+					ga('create', 'UA-76868335-1', 'auto');
+					ga('send', 'pageview');
+					</script>
+				</html>
