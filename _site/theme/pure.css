@@ -1,3 +1,28 @@
+/* Martin's original customizations */
+
+/* Reduce default max width */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+/* Hide numbering in ol items (for Citezen entries) */
+ol li {
+  list-style-type: square;
+  margin-bottom: 0.75em;
+}
+
+/* Space between paragraphs */
+p + p {
+  margin-top: 0.75em;
+}
+
+/* ---- */
+
+
+
+
 /* magritte */
 th { background: none }
 td.required:after { color: #8a1f11; margin-left: 0.5em; font-weight: bold; content: "*"; }
@@ -7,19 +32,16 @@ tr.error, th.error, td.error { border: none }
 .broken { color: #8a1f11; }
 .protected { color: #514721; }
  
-/* basics */
-.toright {
-  float: right;
-}
 
+/* basics */
 html, body{
-		height: 100%;
-        margin: 0px;
-        padding: 0px;
-        font-family: helvetica neue, helvetica;
-        color: #333333;
-        text-align: justify;
-		background-color: white;
+	height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans',sans-serif;
+  color: #333333;
+  text-align: justify;
+	background-color: white;
 }
 .container {
 	min-height: 100%;
@@ -29,38 +51,40 @@ html, body{
 	margin: 0 auto -150px;
 }
 h1 {
-      font-size: 2.5em;
-      text-align: none;
+  font-size: 2.5em;
+  text-align: none;
 }
 
 h1 a{
-      color: Black;
+  color: Black;
 }
 
 h2 {
-      font-size: 1.7em;
-      text-align: none;
+  font-size: 1.7em;
+  text-align: none;
 }
 
 ul, p{
-    list-style-type: square;
-    margin-bottom: 0.3em;
+  list-style-type: square;
+  margin-bottom: 0.3em;
 }
 
 a{
-       color: #002299; //#003366;
-       text-decoration: none;
+  color: #002299; //#003366;
+  text-decoration: none;
 }
 a:hover{
-        color: grey;
+  color: grey;
 }
 a:focus.page, a:active {               
-          color: red;
+  color: red;
 }
 .clear{
-        clear: both;
+  clear: both;
 }
-/*header*/
+
+
+/* header */
 
 .header{
  	margin: auto;
@@ -69,9 +93,15 @@ a:focus.page, a:active {
 .title {
 	position: absolute;
 	width: 100%;
-    height: 100px;
-   	padding-top: 10px;
+  height: 100px;
+  padding-top: 10px;
 }
+
+.title h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
 
 .title h2 {
 	margin-top: 0px;
@@ -81,63 +111,17 @@ a:focus.page, a:active {
 	height: 100px;
 }
 
-.header .title a.page{
-       height: 100px;
-       outline: 0px;
-       display: block;
-       text-indent: -1000px;
-       background:url("http://esug.org/design/logo.png");
-       background-repeat: no-repeat;
-}
-.header .search input {
-	width: 140px;
-	outline: none;
-}
-.search{
-         float: right;
-         padding-top: 20px;
-}
-.header .search ul {
-	margin: 0;
-	padding: 0;
-	background: #fff;
-	list-style-type: none;
-	border: 1px solid #666;
-	border-top: none;
-}
-.header .search li.selected {
-	background-color: #009;
-}
-.header .search li {
-	margin: 0;
-	display: block;
-	padding: 0.2em;
-	cursor: pointer;
-	list-style-type: none;
-}
-.header .search a {
-	text-decoration: none;
-}
-.header .search li.selected a {
-	color: #fff;
-}
-#id11{
-        z-index:3;
-}
-
-figure{
-	margin: 0px;
-}
 
 /* children Menue (Main) */
 
 .header .children a{
-        height: 40px;
+  height: 40px;
+  font-size: 125%;
 }
-.header .children a.page{		
-        color: black;
-        text-decoration: none;
-        font-size: 1.8em;
+/*.header .children a.page{		
+  color: black;
+  text-decoration: none;
+  font-size: 1.8em;
 }
 .header .children a:hover.page{				
 	color: grey;
@@ -146,28 +130,28 @@ figure{
 	color: red;
 }
 .header .children a.active {
-        color: grey;
-}
-.children{
+  color: grey;
+}*/
+.header .children{
 	float: right;
 	position: relative;
-	padding-top: 70px;
-	font-family: helvetica neue, helvetica;
-        font-size: smaller;
+	padding-top: 85px;
+/*  font-size: 75%;*/
 	width: auto;
-        margin: auto;
+  margin: auto;
+  text-align: center;
 }
-.children ul{
-        margin: auto;
-        text-align: center;
+.header ul {
+  margin:0 0 0 0;
 }
-.children ul li{
-	
+.header .children ul li{
 	list-style-type: none;
 	height: 40px;
 	display: inline;  
-        margin: 15px;       
+  margin-left: 10px;
 }
+
+
 
 /* submenue */
 
@@ -175,26 +159,25 @@ figure{
 	float: right;
 	position: relative;
 	top: 60px;
-        left: 160px;
-	font-family: helvetica neue, helvetica;
+  left: 160px;
 	width: auto;
 	display: inline-block;
-        margin: auto;
+  margin: auto;
 }
 .header .submenue a{		
-        text-decoration: none;
-        font-size: 1.2em;
-        color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
 }
 .header .submenue a:hover{
-        color: grey;
+  color: grey;
 }
 .header .submenue a.active {
-        color: grey;
+  color: grey;
 }
 .submenue ul{
-        margin: auto;
-        text-align: center;
+  margin: auto;
+  text-align: center;
 }
 .submenue ul li{
 	display: inline;
@@ -202,6 +185,8 @@ figure{
 	float: left;
     margin: 8px;
 }
+
+
 /*content*/
 
 .body {
@@ -209,121 +194,74 @@ figure{
 	margin: auto;
 }
 .contents{
-        padding-top: 20px;
+  padding-top: 20px;
 }
 /*first site (Home)*/
 
 /*first site (Home) - BLOG*/
 
 .rssfeedbox{
-         height: 24px;
-         width: 340px;
+  height: 24px;
+  width: 340px;
 }     
 a.rssfeed {
-       background:url("http://esug.org/design/rssfeed.png");
-       background-repeat: no-repeat;
-       outline: 0px;
-       display: block;
-       text-indent: -1000px;
-       height: 24px;
-       width: 24px;
-       float: right;
+  background:url("http://esug.org/design/rssfeed.png");
+  background-repeat: no-repeat;
+  outline: 0px;
+  display: block;
+  text-indent: -1000px;
+  height: 24px;
+  width: 24px;
+  float: right;
 }
 
 .blogbox{
-        float: left;
-        width: 380px;
-       padding-top: 30px;
+  float: left;
+  width: 380px;
+  padding-top: 30px;
 }
 .postticker li{
-        margin: 5px;
+  margin: 5px;
 }
 a.post{
-        font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .boxesnodot {
-      padding: 15px;
-       width: 320px;
-       height: auto;
+  padding: 15px;
+  width: 320px;
+  height: auto;
 }
 
 .boxes{
-       border: 1px dotted;
-       padding: 15px;
-       width: 320px;
-       height: auto;
-      
-}
-.boxes p,ul{
-        padding: 5px;
+  border: 1px dotted;
+  padding: 15px;
+  width: 320px;
+  height: auto;
+
 }
 
-/* sidebar in footer (login) */
 
-.sidebar{
-        float: right;
-        right: 20px;
-        padding-top: 15px;
-        position: absolute;
-}
-.sidebar ul {
-	padding-top: 0;
-	padding-left: 0;
-	list-style-type: none;
-}
-.sidebar ul ul {
-	padding-bottom: 0;
-	padding-left: 1.5em;
-}
-.sidebar ul li{
-         float: left;
-         margin-left: 10px;
-         margin-right: 10px;
-         font-size: 10pt;
-}
-.sidebar .active {
-	 font-weight: bold;
-}
+
 
 /* footer */
 
-.colums{
-      height: 105px;
-      margin: auto;
-      width: 500px;}
 .footer a {
-         color: grey;
+  color: grey;
 }
 .footer a:hover{
-         color: black;
+  color: black;
 }
-.donate{
-         position: absolute;
-         left: 400px;
-         top: 11px;
-         width: 200px;
-}
-.push {
-           height: 160px;
-           width: 100%;
-           float: right;
-           }
 .footer {
-        height: 150px;
-        width: 100%;
-        background-image: url("http://esug.org/design/footer2.png"); 
-        background-repeat: x;
+  height: 150px;
+  width: 100%;
+  text-align: center;
 }
 .madeby {
-        float: left;
-        padding-left: 30px;
-        font-size: 1em;
-        position: absolute;
-        color: #666666;
-        width: 400px;
-        padding-top: 80px;
-        padding-bottom: 10px;
+  font-size: 0.8em;
+  color: #666666;
+  padding-top: 80px;
+  padding-bottom: 10px;
 }
 
 div.frontpagemessage {
@@ -457,7 +395,6 @@ img.picturecentered {
 }
 
 .pin p {
-	font: 12px/18px Arial, sans-serif;
 	color: #333;
 	margin: 0;
 }

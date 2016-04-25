@@ -1,18 +1,20 @@
 ! About me
 
-I'm a Ph.D. student at University of Lille, France, under the supervision of *Stéphane Ducasse>http://stephane.ducasse.free.fr/* and *Damien Cassou>http://damiencassou.seasidehosting.st/*. I'm part of *RMoD research group>http://rmod.lille.inria.fr/* at *Inria>http://www.inria.fr/*.
+This site is about me as a programmer and a researcher.
+
+In 2015, I've got a Ph.D. at University of Lille (France) under the supervision of *Stéphane Ducasse>http://stephane.ducasse.free.fr/* and *Damien Cassou>http://damiencassou.seasidehosting.st/*. I was part of *RMoD research group>http://rmod.lille.inria.fr/* at *Inria>http://www.inria.fr/*.
 
 Previously, I've studied at the *Departamento de Computación>http://www.dc.uba.ar/*, *Universidad de Buenos Aires>http://dc.uba.ar/*, where I received my degree in Computer Sciences. During my studies, I've worked several years at *Hexacta>http://www.hexacta.com/*, a consulting and software development company at Buenos Aires, Argentina.
 
-!! Research interests
+! Research interests
 
-- Software comprehension, maintenance and evolution.
+- Software comprehension, maintenance and evolution
 - Source code analysis and manipulation
 - Mining software repositories
 
 %I propose solutions to support program comprehension and software evolution. 
 
-!! Contact and other links
+! Contact
 
 - *email>tinchodias@gmail.com*
 - *twitter>http://twitter.com/tinchodias*
