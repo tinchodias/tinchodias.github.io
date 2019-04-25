@@ -11,7 +11,7 @@ Pharo is a Smalltalk-inspired language that offers strong live programming featu
 
 !! Voyage
 
-I'm one of the contributors to *Voyage>https://github.com/pharo-nosql/voyage*, a persistence framework constructed as a small layer between the Pharo objects and a persistency mechanism. It is purely object-oriented and has as a goal to present a minimal API to most common development usages. Voyage's main backend is the *MongoDB database>http://mongodb.org*, but there are other backends such as UnQLite and Gemstone.
+I'm one of the contributors to *Voyage>https://github.com/pharo-nosql/voyage*, a persistence framework constructed as a small layer between *Pharo>http://pharo.org/* objects and a persistency mechanism. It is purely object-oriented and has as a goal to present a minimal API to most common development usages. Voyage's main backend is the *MongoDB database>http://mongodb.org*, but there are other backends such as UnQLite and Gemstone.
 
 
 !! Hiedra
