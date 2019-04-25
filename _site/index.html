@@ -1,19 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
 	<head>
-		<title>
-		Martín Dias
-		</title>
+		<title>Martín Dias</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
 		<meta name="generator" content="Pharo - Pillar - Ecstatic" />
 		<meta name="robots" content="index,follow" />
+  		<meta name="viewport" content="width=device-width initial-scale=1" />
 		<meta name="keywords" content="Martin Dias, tinchodias, code changes, impact analysis, untangling code changes, Pharo, Smalltalk" />
+
 		<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
-
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
-
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="/theme/pure.css" />
 		
@@ -21,9 +21,9 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	</head>
+
+
 	<body class="page viewcommand defaultview">
-
-
 		<nav class="navbar navbar-default">
 			<div class="container">
 				<div class="header">
@@ -77,7 +77,7 @@
 In 2018, I started a postdoc position at Computer Science Department (<a href="http://www.dcc.uchile.cl/">DCC</a>) of the <a href="http://www.uchile.cl/">University of Chile</a> (<a href="http://www.fcfm.uchile.cl/">Faculty of Engineering</a>).
 </p>
 <p>
-During 2016-18, I worked as a teacher at <a href="http://www.unq.edu.ar/english/sections/158-unq/">National University of Quilmes</a>, and also as developer of web applications.
+During 2016-18, I worked as a teacher at <a href="http://www.unq.edu.ar/english/sections/158-unq/">National University of Quilmes</a>, and also as developer of web applications (please, don't take this web page as a sample ;)).
 </p>
 <p>
 In 2015, I've got a Ph.D. at <a href="https://www.univ-lille.fr/home/">University of Lille</a> under the supervision of <a href="http://stephane.ducasse.free.fr/">Stéphane Ducasse</a> and <a href="http://damiencassou.seasidehosting.st/">Damien Cassou</a>. 
@@ -122,37 +122,39 @@ During my master I've programmed many years for consulting and software developm
 
 		<div class="footer container-fluid">
 			<div class="madeby">
-				Powered by <a class="external" href="http://www.pharo.org">pharo</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~Pier/Pillar">pillar</a> | <a class="external" href="http://guillep.github.io/ecstatic/">Ecstatic</a>
+				2019 - Powered by <a class="external" href="https://www.pharo.org">pharo</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~Pier/Pillar">pillar</a> | <a class="external" href="https://guillep.github.io/ecstatic/">Ecstatic</a>
 			</div>
 		</div>
 	</body>
+
+
 	<script>
 	$(document).ready(function() {
-	$('dt').each(function() {
-	var $dt = $(this),
-	$selection = $dt.next('dd').andSelf();
-	$selection.wrapAll('<div class="col-md-4">');
-			});
-				$('dd').find('br').remove();
-				$('dt').contents().unwrap().wrap("<h3/>");
-				$('dd').contents().unwrap().wrap("<p/>");
-						$('dl').wrap("<div class='row multi-columns-row'/>");
-								$('dl').contents().unwrap();
-							});
-							function transformAnnotatedParagraphs(pClass) {
-							$("p." + pClass).wrap("<div class='alert alert-" + pClass + "' role='alert'/>" );
-									};
-									transformAnnotatedParagraphs('success');
-									transformAnnotatedParagraphs('info');
-									transformAnnotatedParagraphs('warning');
-									transformAnnotatedParagraphs('danger');
-					</script>
-					<script>
-					(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-					})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-					ga('create', 'UA-76868335-1', 'auto');
-					ga('send', 'pageview');
-					</script>
-				</html>
+		$('dt').each(function() {
+			var $dt = $(this),
+			$selection = $dt.next('dd').andSelf();
+			$selection.wrapAll('<div class="col-md-4">');
+		});
+		$('dd').find('br').remove();
+		$('dt').contents().unwrap().wrap("<h3/>");
+		$('dd').contents().unwrap().wrap("<p/>");
+		$('dl').wrap("<div class='row multi-columns-row'/>");
+		$('dl').contents().unwrap();
+	});
+	function transformAnnotatedParagraphs(pClass) {
+	$("p." + pClass).wrap("<div class='alert alert-" + pClass + "' role='alert'/>" );
+			};
+			transformAnnotatedParagraphs('success');
+			transformAnnotatedParagraphs('info');
+			transformAnnotatedParagraphs('warning');
+			transformAnnotatedParagraphs('danger');
+	</script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-76868335-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</html>

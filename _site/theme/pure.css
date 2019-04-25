@@ -91,7 +91,7 @@ a:focus.page, a:active {
 }
 .title {
 	position: absolute;
-	width: 100%;
+	width: 700px;
   height: 100px;
   padding-top: 10px;
 }
