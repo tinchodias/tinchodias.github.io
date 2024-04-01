@@ -2,74 +2,40 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-
 	<head>
 		<title>Martín Dias</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
-		<meta name="generator" content="Pharo - Pillar - Ecstatic" />
 		<meta name="robots" content="index,follow" />
   		<meta name="viewport" content="width=device-width initial-scale=1" />
-		<meta name="keywords" content="Martin Dias, tinchodias, code changes, impact analysis, untangling code changes, Pharo, Smalltalk" />
+		<meta name="keywords" content="Martin Dias, tinchodias, Pharo, Smalltalk" />
 
 		<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@18,0&display=swap" rel="stylesheet">
+
 		<link rel="stylesheet" type="text/css" href="/theme/pure.css" />
-		
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	</head>
 
+	<body>
+	
+		<div class="page">
 
-	<body class="page viewcommand defaultview">
-		<nav class="navbar navbar-default">
-			<div class="container">
+			<div class="page-item">
 				<div class="header">
-					<div class="title">
-						<div style="float:left; margin-right:15px">
-							<a href="/index.html">
-								<img alt="Martín Dias" src="http://www.gravatar.com/avatar/cdeb4819a8b61aa0164507c81c885d64?s=400">
-							</a>
-						</div>
-						<div style="margin:15px">
-							<h1>Martín Dias</h1>
-							<h2>programming, research, teaching</h2>
-						</div>
-					</div>
-					<div class="children">
-						<ul>
-							
-							<li>
-								<a class="page" href="/index.html">Home</a>
-							</li>
-							
-							<li>
-								<a class="page" href="/publications.html">Publications</a>
-							</li>
-							
-							<li>
-								<a class="page" href="/projects.html">Projects</a>
-							</li>
-							
-						</ul>
-					</div>
-					<div class="submenue">
-						<ul>
-							
-						</ul>
-					</div>
-					<div class="clear"></div>
+					<img alt="Martín Dias" src="http://www.gravatar.com/avatar/cdeb4819a8b61aa0164507c81c885d64?s=100">
+					<span class="martin">Martín Dias</span>
+					<div class="break"></div>
+					<p><span><a class="page" href="/index.html">▻Me</a></span><span><a class="page" href="/publications.html">▻Publications</a></span><span><a class="page" href="/projects.html">▻Software</a></span></p>
 				</div>
+
 			</div>
-		</nav>
 
-
-		<div class="container">
-			<div class="body">
-				<div class="contents">
-					<section>
+			<div class="page-item">
+				<section>
 <h1> Other activities</h1>
 
 <ul>
@@ -95,46 +61,14 @@
 </ul>
 
 </section></section>
-				</div>
+			</div>
+
+
+			<div class="page-item footer">
+				2024 - Powered by <a class="external" href="https://guillep.github.io/ecstatic/">Ecstatic</a>
 			</div>
 		</div>
 
-
-		<div class="footer container-fluid">
-			<div class="madeby">
-				2019 - Powered by <a class="external" href="https://www.pharo.org">pharo</a> | <a class="external" href="http://www.smalltalkhub.com/#!/~Pier/Pillar">pillar</a> | <a class="external" href="https://guillep.github.io/ecstatic/">Ecstatic</a>
-			</div>
-		</div>
 	</body>
 
-
-	<script>
-	$(document).ready(function() {
-		$('dt').each(function() {
-			var $dt = $(this),
-			$selection = $dt.next('dd').andSelf();
-			$selection.wrapAll('<div class="col-md-4">');
-		});
-		$('dd').find('br').remove();
-		$('dt').contents().unwrap().wrap("<h3/>");
-		$('dd').contents().unwrap().wrap("<p/>");
-		$('dl').wrap("<div class='row multi-columns-row'/>");
-		$('dl').contents().unwrap();
-	});
-	function transformAnnotatedParagraphs(pClass) {
-	$("p." + pClass).wrap("<div class='alert alert-" + pClass + "' role='alert'/>" );
-			};
-			transformAnnotatedParagraphs('success');
-			transformAnnotatedParagraphs('info');
-			transformAnnotatedParagraphs('warning');
-			transformAnnotatedParagraphs('danger');
-	</script>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-76868335-1', 'auto');
-		ga('send', 'pageview');
-	</script>
 </html>
