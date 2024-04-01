@@ -1,3 +1,0 @@
-!Blog
-
-${etList:directory=posts}$
