@@ -14,26 +14,74 @@ a {
 }
 a:hover {
   color: blue;
+  text-decoration-color: blue;
 }
 
 h1, h2 {
   font-family: "Source Serif 4", serif;
   font-weight: 700;
 }
-
+h1 {
+  font-size: 2em;
+}
 h2 {
   font-size: 1.2em;
 }
 
-.martin {
-  font-size: 4em;
+li {
+  list-style: square;
+}
+
+.honk {
+  font-size: 4.5em;
   font-family: "Honk", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
-    "MORF" 18,
+    "MORF" 19,
     "SHLN" 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  align-content: baseline;
+  margin-bottom: 2em;
+}
+
+.header img {
+  border-radius: 0.25em;
+  margin-right: 0.65em;
+  border: black 0.15em solid;
+}
+
+.header .break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.header .navbar {
+  display: contents;
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+}
+.header .navbar .button {
+  margin-right: 1.1em;
+  font-size: larger;
+}
+.header .navbar .icon {
+  font-size: 1.2em;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.75em;
+  color: #666666;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 .page {
@@ -51,38 +99,4 @@ h2 {
   flex-basis: auto;
   align-self: center;
   width: 100%;
-}
-
-
-.header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: baseline;
-  align-content: baseline;
-}
-
-.header img {
-  border-radius: 0.2em;
-  margin-right: 1em;
-}
-
-.header .break {
-  flex-basis: 100%;
-  height: 0;
-}
-
-.header p {
-  display: contents;
-}
-.header p span {
-  margin-right: 1em;
-}
-
-.footer {
-  text-align: center;
-  font-size: 0.8em;
-  color: #666666;
-  padding-top: 40px;
-  padding-bottom: 10px;
 }

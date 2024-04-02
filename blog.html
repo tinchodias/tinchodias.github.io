@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 	<head>
-		<title>{{title}}</title>
+		<title>Martín Dias</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
 		<meta name="robots" content="index,follow" />
   		<meta name="viewport" content="width=device-width initial-scale=1" />
-		<meta name="keywords" content="{{site_keywords}}" />
+		<meta name="keywords" content="Martin Dias, tinchodias, Pharo, Smalltalk" />
 
 		<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
 
@@ -17,7 +17,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@18,0&display=swap" rel="stylesheet">
 
-		<link rel="stylesheet" type="text/css" href="{{baseurl}}theme/pure.css" />
+		<link rel="stylesheet" type="text/css" href="/theme/pure.css" />
 	</head>
 
 	<body>
@@ -25,26 +25,41 @@
 
 			<div class="page-item">
 				<div class="header">
-					<img alt="{{site_name}}" src="{{site_logo}}">
-					<span class="honk">{{site_name}}</span>
+					<img alt="Martín Dias" src="http://www.gravatar.com/avatar/cdeb4819a8b61aa0164507c81c885d64?s=100">
+					<span class="honk">Martín Dias</span>
 					<div class="break"></div>
 					<div class="navbar">
-						{{#menu}}
+						
 						<div class="button">
 						<span class="honk icon">O</span>
-						<a href="{{url}}">{{title}}</a>
+						<a href="/index.html">Me</a>
 						</div>
-						{{/menu}}
+						
+						<div class="button">
+						<span class="honk icon">O</span>
+						<a href="/publications.html">Publications</a>
+						</div>
+						
+						<div class="button">
+						<span class="honk icon">O</span>
+						<a href="/projects.html">Software</a>
+						</div>
+						
 					</div>
 				</div>
 			</div>
 
 			<div class="page-item">
-				{{{content}}}
+				<section>
+<h1>Blog</h1>
+
+<p>
+
+</p></section>
 			</div>
 
 			<div class="page-item footer">
-				{{update_string}} - Generated with <a class="external" href="https://guillep.github.io/ecstatic/">Ecstatic</a>
+				2024 - Generated with <a class="external" href="https://guillep.github.io/ecstatic/">Ecstatic</a>
 			</div>
 
 		</div>
