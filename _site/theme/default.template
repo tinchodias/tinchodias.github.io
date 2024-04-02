@@ -21,29 +21,33 @@
 	</head>
 
 	<body>
-	
 		<div class="page">
 
 			<div class="page-item">
 				<div class="header">
 					<img alt="{{site_name}}" src="{{site_logo}}">
-					<span class="martin">{{site_name}}</span>
+					<span class="honk">{{site_name}}</span>
 					<div class="break"></div>
-					<p>{{#menu}}<span><a class="page" href="{{url}}">▻{{title}}</a></span>{{/menu}}</p>
+					<div class="navbar">
+						{{#menu}}
+						<div class="button">
+						<span class="honk icon">O</span>
+						<a href="{{url}}">{{title}}</a>
+						</div>
+						{{/menu}}
+					</div>
 				</div>
-
 			</div>
 
 			<div class="page-item">
 				{{{content}}}
 			</div>
 
-
 			<div class="page-item footer">
-				{{update_string}} - Powered by <a class="external" href="https://guillep.github.io/ecstatic/">Ecstatic</a>
+				{{update_string}} - Generated with <a class="external" href="https://guillep.github.io/ecstatic/">Ecstatic</a>
 			</div>
-		</div>
 
+		</div>
 	</body>
 
 </html>
