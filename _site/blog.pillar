@@ -1,0 +1,3 @@
+!Blog
+
+${etList:directory=posts}$

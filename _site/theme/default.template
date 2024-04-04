@@ -3,16 +3,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 	<head>
-		<title>Martín Dias</title>
+		<title>{{title}}</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
 		<meta name="robots" content="index,follow" />
   		<meta name="viewport" content="width=device-width initial-scale=1" />
-		<meta name="keywords" content="Martin Dias, tinchodias, Pharo, Smalltalk" />
+		<meta name="keywords" content="{{site_keywords}}" />
 
 		<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
 
-		<link rel="stylesheet" type="text/css" href="/theme/pure.css" />
+		<link rel="stylesheet" type="text/css" href="{{baseurl}}theme/pure.css" />
 	</head>
 
 	<body>
@@ -20,61 +20,26 @@
 
 			<div class="page-item">
 				<div class="header">
-					<img alt="Martín Dias" src="https://www.gravatar.com/avatar/cdeb4819a8b61aa0164507c81c885d64?s=100">
-					<span class="title">Martín Dias</span>
+					<img alt="{{site_name}}" src="{{site_logo}}">
+					<span class="title">{{site_name}}</span>
 					<div class="break"></div>
 					<div class="navbar">
-						
+						{{#menu}}
 						<div class="button">
 							<div class="icon"></div>
-							<a href="/index.html">Me</a>
+							<a href="{{url}}">{{title}}</a>
 						</div>
-						
-						<div class="button">
-							<div class="icon"></div>
-							<a href="/publications.html">Publications</a>
-						</div>
-						
-						<div class="button">
-							<div class="icon"></div>
-							<a href="/projects.html">Software</a>
-						</div>
-						
+						{{/menu}}
 					</div>
 				</div>
 			</div>
 
 			<div class="page-item">
-				<section>
-<h1> Other activities</h1>
-
-<ul>
-<li> PC member of DChanges 2015 and 2016</li>
-<li> Subreview</li>
-</ul>
-
-<section>
-<h2> Epicea</h2>
-<ul>
-<li> Poster in PharoDays 2015</li>
-<li> Show us your project ESUG 2014</li>
-<li> Innovation Awards at ESUG 2013</li>
-</ul>
-
-</section><section>
-<h2> Fuel</h2>
-<ul>
-<li> Presentation in Smalltalks 2011 (Quilmes)</li>
-<li> ESUG Award 2011</li>
-<li> ESUG fundings 2011</li>
-<li> Student at Google Summer of Code 2011</li>
-</ul>
-
-</section></section>
+				{{{content}}}
 			</div>
 
 			<div class="page-item footer">
-				2024 - Generated with <a class="external" href="https://guillep.github.io/ecstatic/">Ecstatic</a>
+				{{update_string}} - Generated with <a class="external" href="https://guillep.github.io/ecstatic/">Ecstatic</a>
 			</div>
 
 		</div>
